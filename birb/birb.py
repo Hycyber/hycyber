@@ -9,6 +9,9 @@ BaseCog = getattr(commands, "Cog", object)
 
 class Birb(BaseCog):
 	"""Birb commands."""
+	
+	def __init__(self, bot):
+		self.bot = bot
 
 	@commands.command()
 	async def aaa(self, ctx):
