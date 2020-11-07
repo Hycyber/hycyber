@@ -24,8 +24,10 @@ class Birb(BaseCog):
 		for num in range(range):
 			if screm > 0:
 				screm_list1.append('A')
+				num++
 			else:
 				screm_list1.append('a')
+				num++
 		await ctx.send(''.join(screm_list1))
 
 	def cog_unload(self):
