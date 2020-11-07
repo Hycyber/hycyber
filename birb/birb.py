@@ -19,7 +19,7 @@ class Birb(BaseCog):
 		screm_list1 = []
 		num = 0
 		range = randrange(1,50)
-		screm = randint(0,1)
+		screm = randrange(0,1)
 
 		for num in xrange(range):
 			if screm > 0:
