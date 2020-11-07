@@ -50,5 +50,3 @@ class Birb(BaseCog):
         self.bot.loop.create_task(self.session.close())
 
     __del__ = cog_unload
-        
-        
