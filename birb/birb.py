@@ -10,11 +10,7 @@ BaseCog = getattr(commands, "Cog", object)
 class Birb(BaseCog):
     """Birb commands."""
 
-    def __init__(self, bot):
-        self.bot = bot
-
     @commands.command()
-    @commands.cooldown(1, 60, commands.BucketType.guild)
     async def aaa(self, ctx):
         """screm"""
         screm_list = []
@@ -27,10 +23,9 @@ class Birb(BaseCog):
                 screm_list.append('A')
             else:
                 screm_list.append('a')
-
         await ctx.send(''.join(screm_list))
+        
     @commands.command()
-    @commands.cooldown(1, 60, commands.BucketType.guild)
     async def screm(self, ctx):
         """screm but more typing"""
         screm_list = []
@@ -43,8 +38,7 @@ class Birb(BaseCog):
                 screm_list.append('A')
             else:
                 screm_list.append('a')
-
-        ctx.send(''.join(screm_list))
+        await ctx.send(''.join(screm_list))
 
     def cog_unload(self):
         self.bot.loop.create_task(self.session.close())
