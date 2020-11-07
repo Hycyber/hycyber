@@ -1,0 +1,9 @@
+{
+    "author" : ["Hycyber (Hycyber#7945)"],
+    "install_msg" : "Learning Birb",
+    "name" : "Hycyber",
+    "short" : "Learning how to code cogs",
+    "requirements" : [],
+    "description" : "Learning how to code cogs",
+    "tags" : ["cogs", "Birb"]
+}
