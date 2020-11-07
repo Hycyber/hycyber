@@ -21,7 +21,7 @@ class Birb(BaseCog):
 		range = randrange(1,50)
 		screm = randrange(0,1)
 
-		for num in xrange(range):
+		for num in range(range):
 			if screm > 0:
 				screm_list1.append('A')
 			else:
