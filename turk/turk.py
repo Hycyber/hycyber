@@ -14,7 +14,7 @@ class Turk(BaseCog):
         self.bot = bot
     
     @commands.command()
-    async def test(ctx, member: discord.Member):
+    async def test(self, ctx, member: discord.Member):
         """testing nickname change"""
         await member.edit(nick = "test")
         
