@@ -14,9 +14,10 @@ class Turk(BaseCog):
         self.bot = bot
     
     @commands.command()
-    async def test(self, ctx, member: discord.Member):
+    async def test(self, ctd: commands.Context, user: dsicord.Member,*):
         """testing nickname change"""
-        await member.edit(nick = "test")
+        await member.edit(reason=get_audit)reason(ctx.author, None) nick="Test")
+        await ctx.send("done")
         
     @commands.command()
     def cog_unload(self):
