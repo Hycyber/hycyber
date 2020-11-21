@@ -14,12 +14,28 @@ class Birb(BaseCog):
 		self.bot = bot
 
 	@commands.command()
+	async def screm(self, ctx):
+		"""screm"""
+		screm_list1 = []
+		num = 0
+		x = randrange(1,50)
+		screm = randrange(0,2)
+
+		for num in range(0,x):
+			if screm > 0:
+				screm_list1.append('A')
+			else:
+				screm_list1.append('a')
+		num += 1
+		await ctx.send(''.join(screm_list1))
+		
+	@commands.command()
 	async def aaa(self, ctx):
 		"""screm"""
 		screm_list1 = []
 		num = 0
 		x = randrange(1,50)
-		screm = randrange(0,1)
+		screm = randrange(0,2)
 
 		for num in range(0,x):
 			if screm > 0:
