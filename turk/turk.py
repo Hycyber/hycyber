@@ -15,7 +15,7 @@ class Turk(BaseCog):
 
     @commands.command()
     @commands.cooldown(1, 60, commands.BucketType.guild)
-    async def test(self, ctx, member: dsicord.Member):
+    async def test(self, ctx, member: discord.Member):
         """testing nickname change"""
         await member.edit(nick = "test")
         
