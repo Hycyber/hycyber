@@ -16,7 +16,7 @@ class Turk(BaseCog):
     @commands.command()
     async def test(self, ctd: commands.Context, user: dsicord.Member,*):
         """testing nickname change"""
-        await member.edit(reason=get_audit)reason(ctx.author, None) nick="Test")
+        await member.edit(reason=get_audit_reason(ctx.author, None) nick="Test")
         await ctx.send("done")
         
     @commands.command()
