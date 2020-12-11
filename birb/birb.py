@@ -18,7 +18,7 @@ class Birb(BaseCog):
 		"""screm"""
 		screm_list1 = []
 		num = 0
-		x = randrange(1,50)
+		x = randrange(1,200)
 		screm = randrange(0,2)
 
 		for num in range(0,x):
@@ -34,7 +34,7 @@ class Birb(BaseCog):
 		"""screm"""
 		screm_list1 = []
 		num = 0
-		x = randrange(1,50)
+		x = randrange(1,200)
 		screm = randrange(0,2)
 
 		for num in range(0,x):
