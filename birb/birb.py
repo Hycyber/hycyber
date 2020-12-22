@@ -26,7 +26,6 @@ class Birb(BaseCog):
 				screm_list1.append('A')
 			else:
 				screm_list1.append('a')
-		num += 1
 		await ctx.send(''.join(screm_list1))
 		
 	@commands.command()
@@ -42,12 +41,11 @@ class Birb(BaseCog):
 				screm_list1.append('A')
 			else:
 				screm_list1.append('a')
-		num += 1
 		await ctx.send(''.join(screm_list1))
 		
 	@commands.command()
 	async def boomer(self, ctx):
-		"boomer command requested by plague"
+		"""boomer command requested by plague"""
 		screm_list1 = []
 		num = 0
 		x = randrange(2,200)
@@ -55,7 +53,6 @@ class Birb(BaseCog):
 
 		for num in range(0,x):
 			screm_list.append("O")
-		num += 1
 		screm_list.append("MER")
 		await ctx.send(''.join(screm_list1))
 		
