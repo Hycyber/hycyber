@@ -46,15 +46,15 @@ class Birb(BaseCog):
 	@commands.command()
 	async def boomer(self, ctx):
 		"""boomer command requested by plague"""
-		screm_list1 = []
+		boomer = []
 		num = 0
 		x = randrange(2,200)
-		screm_list.append("B")
+		boomer.append("B")
 
 		for num in range(0,x):
-			screm_list.append("O")
-		screm_list.append("MER")
-		await ctx.send(''.join(screm_list1))
+			boomer.append("O")
+		boomer.append("MER")
+		await ctx.send(''.join(boomer))
 		
 
 	def cog_unload(self):
