@@ -34,10 +34,10 @@ class Birb(BaseCog):
 		screm_list1 = []
 		num = 0
 		x = randrange(1,200)
-		screm = randrange(0,2)
 
 		for num in range(0,x):
-			if screm > 0:
+			y = randrange(0,2)
+			if y > 0:
 				screm_list1.append('A')
 			else:
 				screm_list1.append('a')
