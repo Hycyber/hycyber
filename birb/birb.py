@@ -49,10 +49,15 @@ class Birb(BaseCog):
 		boomer = []
 		num = 0
 		x = randrange(2,200)
+		
 		boomer.append("B")
 
 		for num in range(0,x):
-			boomer.append("O")
+			y = randrange(0,1)
+			if(y > 0):
+				boomer.append("O")
+			else:
+				boomer.append("o")
 		boomer.append("MER")
 		await ctx.send(''.join(boomer))
 		
