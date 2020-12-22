@@ -54,7 +54,7 @@ class Birb(BaseCog):
 
 		for num in range(0,x):
 			y = randrange(0,2)
-			if(y > 1):
+			if(y > 0):
 				boomer.append("O")
 			else:
 				boomer.append("o")
