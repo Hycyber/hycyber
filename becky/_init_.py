@@ -1,4 +1,4 @@
-from .becky import lemmesmash
+from .becky import Lemmesmash
 
 def setup(bot):
-    bot.add_cog(lemmesmash(bot))
+    bot.add_cog(Lemmesmash(bot))
