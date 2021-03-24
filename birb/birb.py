@@ -77,9 +77,9 @@ class Birb(BaseCog):
 			 "Ron, I'm leaving"]
         
 		num = 0
-		range = randrange(1,5)
+		x = randrange(1,5)
 
-		for num in xrange(range):
+		for num in range(0,x):
 			bird = random.randint(0,1)
 			if bird > 0:
 				becky_list.append(random.choice(becky))
@@ -121,9 +121,9 @@ class Birb(BaseCog):
 			"Becky, I got stick",
 			"LEMME SMASH"]
 		num = 0
-		range = randrange(1,15)
+		x = randrange(1,15)
 
-		for num in xrange(range):
+		for num in range(0,x):
 			bird = random.randint(0,1)
 			if bird > 0:
 				ron_list.append(random.choice(ron))
