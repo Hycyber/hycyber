@@ -1,4 +1,4 @@
-from .becky import Becky
+from .becky import becky
 
 def setup(bot):
-    bot.add_cog(Becky(bot)
+    bot.add_cog(becky(bot)
