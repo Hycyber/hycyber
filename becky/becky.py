@@ -1,4 +1,4 @@
-# activate becky
+# activate becky, lemme smash
 
 import discord
 
@@ -7,7 +7,7 @@ from random import randrange
 
 BaseCog = getattr(commands, "Cog", object)
 
-class Becky(BaseCog):
+class becky(BaseCog):
     """Becky commands."""
 
     def __init__(self, bot):
@@ -28,33 +28,6 @@ class Becky(BaseCog):
                  "Ron, your tail is small",
                  "Ron, I'm leaving"]
         
-        num = 0
-        range = randrange(1,15)
-
-        for num in xrange(range):
-            bird = random.randint(0,1)
-            if bird > 0:
-                becky_list.append(random.choice(becky))
-                becky_list.append('\n')
-            else:
-                becky_list.append('stik')
-                becky_list.append('\n')
-
-        await ctx.send(''.join(becky_list))
-    @commands.command()
-    @commands.cooldown(1, 60, commands.BucketType.guild)
-    async def becky(self, ctx):
-        """becky quotes"""
-        becky_list =[]
-        becky = ["This is a nice stick",
-                 "I like sticks",
-                 "Peck",
-                 "Peck",
-                 "No Ron, go find Becky",
-                 "No Ron, I don't want sum fuk",
-                 "Ugh",
-                 "Ron, your tail is small",
-                 "Ron, I'm leaving"]
         num = 0
         range = randrange(1,15)
 
