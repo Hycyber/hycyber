@@ -1,6 +1,7 @@
 # activate Birb
 
 import discord
+import random
 
 from redbot.core import commands
 from random import randrange
