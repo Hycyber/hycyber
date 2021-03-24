@@ -80,8 +80,8 @@ class Birb(BaseCog):
 		x = randrange(1,5)
 
 		for num in range(0,x):
-			bird = random.randint(0,1)
-			if bird > 0:
+			y = randrange(0,2) 
+			if y > 0:
 				becky_list.append(random.choice(becky))
 				becky_list.append('\n')
 			else:
@@ -124,8 +124,8 @@ class Birb(BaseCog):
 		x = randrange(1,15)
 
 		for num in range(0,x):
-			bird = random.randint(0,1)
-			if bird > 0:
+			y = randrange(0,2)
+			if y > 0:
 				ron_list.append(random.choice(ron))
 				ron_list.append('\n')
 			else:
