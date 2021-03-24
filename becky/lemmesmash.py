@@ -7,7 +7,7 @@ from random import randrange
 
 BaseCog = getattr(commands, "Cog", object)
 
-class becky(BaseCog):
+class lemmesmash(BaseCog):
     """Becky commands."""
 
     def __init__(self, bot):
