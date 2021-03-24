@@ -1,4 +1,4 @@
-# activate Becky
+# activate becky
 
 import discord
 
@@ -27,32 +27,7 @@ class Becky(BaseCog):
                  "Ugh",
                  "Ron, your tail is small",
                  "Ron, I'm leaving"]
-        ron = ["Lemme smash",
-               "Please",
-               "You want, sum fuk?",
-               "I got you blue",
-               "Hey gurl, you want some tail?",
-               "Wot?",
-               "Swiggity, swooty",
-               "You want yellow?",
-               "She doesn't want yellow",
-               "Blue and yellow?",
-               "Wut?",
-               "No wait lemme smash",
-               "What has my life come to?",
-               "Becky thought my tail was big",
-               "Becky used to let me smash. But Becky is smashing Ben",
-               "Ben is a hoe",
-               "FUCK THIS NEST, FUCK BEN",
-               "I NEED YOU BECKY",
-               "BECKY LEMME SMASH",
-               "Imma get that bitch a stick. Bitches love sticks",
-               "Wrong stick",
-               "Stick",
-               "Need stick",
-               "Got stick",
-               "Becky, I got stick",
-               "LEMME SMASH"]
+        
         num = 0
         range = randrange(1,15)
 
@@ -97,7 +72,7 @@ class Becky(BaseCog):
     
     @commands.cooldown(1, 60, commands.BucketType.guild)
     async def ron(self, ctx):
-        """becky quotes"""
+        """ron quotes"""
         ron_list =[]
         ron = ["Lemme smash",
                "Please",
