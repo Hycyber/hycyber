@@ -9,8 +9,10 @@ from random import randrange
 BaseCog = getattr(commands, "Cog", object)
 
 class Birb(BaseCog):
-	"""Birb commands."""
+	"""Conglomerate of requested commands. To be seperated into cogs later"""
 	
+# Oosmus's requested commands	
+     #!screm	
 	def __init__(self, bot):
 		self.bot = bot
 
@@ -28,7 +30,7 @@ class Birb(BaseCog):
 			else:
 				screm_list1.append('a')
 		await ctx.send(''.join(screm_list1))
-		
+     #!aaa		
 	@commands.command()
 	async def aaa(self, ctx):
 		"""screm"""
@@ -43,43 +45,7 @@ class Birb(BaseCog):
 			else:
 				screm_list1.append('a')
 		await ctx.send(''.join(screm_list1))
-		
-	@commands.command()
-	async def boomer(self, ctx):
-		"""boomer command requested by plague"""
-		boomer = []
-		num = 0
-		x = randrange(2,200)
-		
-		boomer.append("B")
-
-		for num in range(0,x):
-			y = randrange(0,2)
-			if(y > 0):
-				boomer.append("O")
-			else:
-				boomer.append("o")
-		boomer.append("MER")
-		await ctx.send(''.join(boomer))
-		
-	@commands.command()
-	async def groovy(self, ctx):
-		"""groovy command requested by rabbit"""
-		groovy = []
-		num = 0
-		x = randrange(2,200)
-		
-		groovy.append("That's Gr")
-
-		for num in range(0,x):
-			y = randrange(0,2)
-			if(y > 0):
-				groovy.append("O")
-			else:
-				groovy.append("o")
-		groovy.append("vy, dude")
-		await ctx.send(''.join(groovy))
-			
+     #!becky			
 	@commands.command()
 	async def becky(self, ctx):
 		"""becky quotes"""
@@ -107,7 +73,7 @@ class Birb(BaseCog):
 				becky_list.append('\n')
 
 		await ctx.send(''.join(becky_list))
-
+     #!ron
 	@commands.command()
 	async def ron(self, ctx):
 		"""ron quotes"""
@@ -151,7 +117,83 @@ class Birb(BaseCog):
 				ron_list.append('\n')
 
 		await ctx.send(''.join(ron_list))
+# End Oosmus's requested commands
+# Plague's requested commands
+     #!boomer
+	@commands.command()
+	async def boomer(self, ctx):
+		"""boomer command requested by plague"""
+		boomer = []
+		num = 0
+		x = randrange(2,200)
+		
+		boomer.append("B")
 
+		for num in range(0,x):
+			y = randrange(0,2)
+			if(y > 0):
+				boomer.append("O")
+			else:
+				boomer.append("o")
+		boomer.append("MER")
+		await ctx.send(''.join(boomer))
+# End Plague's requested commands
+
+# Rabbit's requested commands
+     #!groovy
+	@commands.command()
+	async def groovy(self, ctx):
+		"""groovy command requested by rabbit"""
+		groovy = []
+		num = 0
+		x = randrange(2,200)
+		
+		groovy.append("That's Gr")
+
+		for num in range(0,x):
+			y = randrange(0,2)
+			if(y > 0):
+				groovy.append("O")
+			else:
+				groovy.append("o")
+		groovy.append("vy, dude")
+		await ctx.send(''.join(groovy))
+     #!soundthealarm		
+	@commands.command()
+	async def soundthealarm(self, ctx):
+		"""Command requested by rabbit"""
+		thump_list = []
+		num = 0
+		x = randrange(1,20)
+
+		for num in range(0,x):
+			thump_list.append("THUMP ")
+		await ctx.send(''.join(thump_list))
+     #!tea		
+	@commands.command()
+	async def tea(self, ctx):
+		"""Command requested by rabbit"""
+		tea_list =[]
+		tea = [  "give me the tea",
+			 "give it now",
+			 "give give give",
+			 "so thirsty",
+			 "I ordered tea, where is it?",
+			 "Where is it?",
+			 "Tea? Tea?",
+			 "Tea give life.",
+			 "RAB-BOT demands tea!"]
+        
+		num = 0
+		x = randrange(1,5)
+
+		for num in range(0,x):
+			tea_list.append(random.choice(tea))
+			tea_list.append('\n')
+
+		await ctx.send(''.join(becky_list))
+
+# End rabbit's requested commands
 	def cog_unload(self):
 		self.bot.loop.create_task(self.session.close())
 
