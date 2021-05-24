@@ -191,7 +191,7 @@ class Birb(BaseCog):
 			tea_list.append(random.choice(tea))
 			tea_list.append('\n')
 
-		await ctx.send(''.join(becky_list))
+		await ctx.send(''.join(tea_list))
 
 # End rabbit's requested commands
 	def cog_unload(self):
