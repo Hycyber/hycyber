@@ -117,6 +117,20 @@ class Birb(BaseCog):
 				ron_list.append('\n')
 
 		await ctx.send(''.join(ron_list))
+		
+		
+     #!dook		
+	@commands.command()
+	async def dook(self, ctx):
+		"""Command requested by Kira"""
+		dook_list = []
+		num = 0
+		x = randrange(1,20)
+
+		for num in range(0,x):
+			dook_list.append("dook  ")
+		await ctx.send(''.join(dook_list))
+		
 # End Oosmus's requested commands
 # Plague's requested commands
      #!boomer
