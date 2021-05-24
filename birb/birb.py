@@ -62,7 +62,24 @@ class Birb(BaseCog):
 		boomer.append("MER")
 		await ctx.send(''.join(boomer))
 		
+	@commands.command()
+	async def groovy(self, ctx):
+		"""groovy command requested by rabbit"""
+		groovy = []
+		num = 0
+		x = randrange(2,200)
 		
+		groovy.append("That's Gr")
+
+		for num in range(0,x):
+			y = randrange(0,2)
+			if(y > 0):
+				groovy.append("O")
+			else:
+				groovy.append("o")
+		groovy.append("vy, dude")
+		await ctx.send(''.join(groovy))
+			
 	@commands.command()
 	async def becky(self, ctx):
 		"""becky quotes"""
