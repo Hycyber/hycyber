@@ -208,6 +208,13 @@ class Birb(BaseCog):
 		await ctx.send(''.join(tea_list))
 
 # End rabbit's requested commands
+# Start Hycyber's designed commands
+     #!fish
+	@commands.command()
+	async def fish(self, ctx):
+		await ctx.send("https://tenor.com/view/pog-fish-fish-mouth-open-gif-17487624")
+		
+#End Hycyber's designed commands
 	def cog_unload(self):
 		self.bot.loop.create_task(self.session.close())
 
