@@ -1,0 +1,10 @@
+{
+    "author" : ["Hycyber (Hycyber#7945)"],
+    "install_msg" : "Search cog active.",
+    "name" : "Search",
+    "short" : "Search encompassing cog"
+    "description" : "Quick search function designed to return images"
+    "disabled" : false,
+    "tags" : "search","images"
+    "min_python_version" : [3,9,0]
+}
