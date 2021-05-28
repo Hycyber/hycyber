@@ -13,7 +13,7 @@ BaseCog = getattr(commands, "Cog", object)
 class IMG(BaseCog):
     """Cog used as a search function for multiple commands"""
 
-    def __init__(self, ,bot):
+    def __init__(self, bot):
         self.bot = bot
 
 #Requested by Kira
