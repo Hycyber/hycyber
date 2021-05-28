@@ -8,7 +8,7 @@ import random
 
 from redbot.core import commands
 
-BaseCog = get attr(commands, "Cog", object)
+BaseCog = getattr(commands, "Cog", object)
 
 class IMG(BaseCog):
     """Cog used as a search function for multiple commands"""
