@@ -38,7 +38,7 @@ class IMG(BaseCog):
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
                 }
 
-                response = r.json().get('data').get('result').get('items')
+                await response = r.json().get('data').get('result').get('items')
                 urls = [r.get('media') for r in response]
 
                 await ctx.send(random.choice(urls))
