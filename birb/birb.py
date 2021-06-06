@@ -237,7 +237,7 @@ class Birb(BaseCog):
 			"PINHOOK FLAGSHIP BOURBON WHISKEY: https://www.totalwine.com/spirits/bourbon/small-batch-bourbon/pinhook-flagship-bourbon-whiskey/p/232301750?s=801&igrules=true",
 			"JACK DANIELS LEGACY EDITION 2: https://www.totalwine.com/spirits/bourbon/jack-daniels-legacy-edition-2/p/191358750?s=801&igrules=true"]
 		brandy = ["ABK6 VSOP COGNAC: https://www.totalwine.com/spirits/brandy-cognac/cognac/abk6-vsop-cognac/p/135127750?s=801&igrules=true",
-			"1889 ROYAL BRANDY: https://www.totalwine.com/spirits/brandy-cognac/brandy/1889-royal-brandy/p/171047175?s=801&igrules=true,
+			"1889 ROYAL BRANDY: https://www.totalwine.com/spirits/brandy-cognac/brandy/1889-royal-brandy/p/171047175?s=801&igrules=true",
 			"E & J BRANDY: https://www.totalwine.com/spirits/brandy-cognac/brandy/e-j-brandy/p/1007175?s=801&igrules=true",
 			"KORBEL BRANDY: https://www.totalwine.com/spirits/brandy-cognac/brandy/korbel-brandy/p/5736175?s=801&igrules=true",
 			"FIDELITAS KIRSCHWASSER: https://www.totalwine.com/spirits/brandy-cognac/eau-de-vie/fidelitas-kirschwasser/p/115921750?s=801&igrules=true",
