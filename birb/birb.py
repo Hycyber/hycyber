@@ -214,7 +214,7 @@ class Birb(BaseCog):
      #!libertymedical
 	@commands.command()
 	async def libertymedical(self, ctx):
-		await ctx.send("https://ttenor.com/view/diabetes-diabeetus-cat-angry-cat-mad-cat-gif-5935791")
+		await ctx.send("https://tenor.com/view/diabetes-diabeetus-cat-angry-cat-mad-cat-gif-5935791")
 
 # End rabbit's requested commands
 # Start Hycyber's designed commands
