@@ -131,6 +131,11 @@ class Birb(BaseCog):
 			dook_list.append("dook  ")
 		await ctx.send(''.join(dook_list))
 		
+     #!fack
+	@commands.command()
+	async def fack(self, ctx):
+		await ctx.send("https://tenor.com/view/fuckthat-fuckthis-fuckeverything-fuck-ferret-gif-4531930")
+		
 # End Oosmus's requested commands
 # Plague's requested commands
      #!boomer
@@ -223,11 +228,6 @@ class Birb(BaseCog):
 	async def fish(self, ctx):
 		await ctx.send("https://tenor.com/view/pog-fish-fish-mouth-open-gif-17487624")
 		
-     #!drink
-	@commands.command()
-	async def drink(self, ctx):
-		await ctx.send("!play https://www.youtube.com/watch?v=f55CqLc6IR0")
-		
      #!liqa
 	@commands.command()
 	async def liqa(self, ctx):
@@ -256,7 +256,7 @@ class Birb(BaseCog):
 			"CHATEAU DE LACQUY REFERENCE: https://www.totalwine.com/spirits/brandy-cognac/armagnac/chateau-de-lacquy-reference/p/226866750?s=801&igrules=true",
 			"D'USSE COGNAC VSOP: https://www.totalwine.com/spirits/brandy-cognac/cognac/dusse-cognac-vsop/p/130477375?s=801&igrules=true"]
 		
-		x = randrange(1,2)
+		x = randrange(1,3)
 		
 		if(x == 1):
 			drink_list.append("Tonight's choice is burbon: ")
