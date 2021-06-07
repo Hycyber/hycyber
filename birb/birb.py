@@ -206,6 +206,10 @@ class Birb(BaseCog):
 			tea_list.append('\n')
 
 		await ctx.send(''.join(tea_list))
+      #!pog
+	@commands.command()
+	async def pog(self, ctx):
+		await ctx.send("https://tenor.com/view/monkey-pog-pog-poggers-monke-pog-monkey-poggers-gif-19560507")
 
 # End rabbit's requested commands
 # Start Hycyber's designed commands
