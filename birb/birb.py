@@ -3,6 +3,7 @@
 import discord
 import random
 
+from .drinkoptions import DrinkOptions
 from redbot.core import commands
 from random import randrange
 
