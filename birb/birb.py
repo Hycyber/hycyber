@@ -211,6 +211,11 @@ class Birb(BaseCog):
 	async def pog(self, ctx):
 		await ctx.send("https://tenor.com/view/monkey-pog-pog-poggers-monke-pog-monkey-poggers-gif-19560507")
 
+     #!libertymedical
+	@commands.command()
+	async def libertymedical(self, ctx):
+		await ctx.send("https://ttenor.com/view/diabetes-diabeetus-cat-angry-cat-mad-cat-gif-5935791")
+
 # End rabbit's requested commands
 # Start Hycyber's designed commands
      #!fish
@@ -218,7 +223,7 @@ class Birb(BaseCog):
 	async def fish(self, ctx):
 		await ctx.send("https://tenor.com/view/pog-fish-fish-mouth-open-gif-17487624")
 		
- #!drink
+     #!drink
 	@commands.command()
 	async def drink(self, ctx):
 		await ctx.send("!play https://www.youtube.com/watch?v=f55CqLc6IR0")
