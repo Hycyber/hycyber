@@ -261,7 +261,7 @@ class Birb(BaseCog):
 		if(x == 1):
 			drink_list.append("Tonight's choice is burbon: ")
 			drink_list.append('\n')
-			drink_list.append(random.choice(burbon))
+			drink_list.append(random.choice(bourbon))
 			
 		if(x == 2):
 			drink_list.append("Tonight's choice is brandy/cognac: ")
