@@ -34,7 +34,7 @@ class DrinkOptions:
 
         return random.choice(brandy)
 
-    async def _get_gin(self)
+    async def _get_gin(self):
         gin = ["G&J GREENALL'S GIN: https://www.totalwine.com/spirits/gin/gj-greenalls-gin/p/16371175?s=801&igrules=true",
             "VINCENZI GIN DI FIORI BLOOD ORANGE: https://www.totalwine.com/spirits/gin/vincenzi-gin-di-fiori-blood-orange/p/234547750?s=801&igrules=true",
             "VINCENZI GIN DI FIORI: https://www.totalwine.com/spirits/gin/vincenzi-gin-di-fiori/p/227604750?s=801&igrules=true",
@@ -47,7 +47,7 @@ class DrinkOptions:
             "3 HOWLS NAVY STRENGTH GIN: https://www.totalwine.com/spirits/gin/3-howls-navy-strength-gin/p/138003750?s=801&igrules=true"]
         return random.choice(gin)
 
-    async def _get_liqueur(self)
+    async def _get_liqueur(self):
         liqueurs = ["BAILEYS IRISH CREAM: https://www.totalwine.com/spirits/liqueurscordialsschnapps/cream/baileys-irish-cream/p/497175?s=801&igrules=true",
             "GRAND IMPERIAL ORANGE LIQUEUR: https://www.totalwine.com/spirits/liqueurscordialsschnapps/citrus-triple-sec/orange/grand-imperial-orange-liqueur/p/2229750?s=801&igrules=true",
             "GRAND MARNIER: https://www.totalwine.com/spirits/liqueurscordialsschnapps/citrus-triple-sec/orange/grand-marnier/p/1735750?s=801&igrules=true",
@@ -60,7 +60,7 @@ class DrinkOptions:
             "FENNELLYS IRISH CREAM: https://www.totalwine.com/spirits/liqueurscordialsschnapps/cream/fennellys-irish-cream/p/38360175?s=801&igrules=true"]
         return random.choice(liqueurs)
 
-    async def _get_r2d(self)
+    async def _get_r2d(self):
         r2d = ["CAZUL 100 MARGARITA POPS - READY TO FREEZE: https://www.totalwine.com/spirits/ready-to-drink/frozen-freezable-cocktails/ice-pops/cazul-100-margarita-pops-ready-to-freeze/p/234549100?s=801&igrules=true",
             "PAINTED DONKEY PINEAPPLE MARGARITA: https://www.totalwine.com/spirits/ready-to-drink/tequila-cocktails/margarita/painted-donkey-pineapple-margarita/p/234138355?s=801&igrules=true",
             "LOS CABOS BLOOD ORANGE MARGARITA: https://www.totalwine.com/spirits/ready-to-drink/tequila-cocktails/margarita/los-cabos-blood-orange-margarita/p/232797175?s=801&igrules=true",
@@ -73,7 +73,7 @@ class DrinkOptions:
             "THE PERFECT COCKTAIL OLD FASHIONED: https://www.totalwine.com/spirits/ready-to-drink/whiskey-cocktails/old-fashioned/the-perfect-cocktail-old-fashioned/p/219854100?s=801&igrules=true"]
         return random.choice(r2d)
 
-    async def _get_rum(self)
+    async def _get_rum(self):
         rum = ["BACARDI SUPERIOR: https://www.totalwine.com/spirits/rum/silver-rum/bacardi-superior/p/3636175?s=801&igrules=true",
             "CAPTAIN MORGAN SPICED RUM: https://www.totalwine.com/spirits/rum/spiced-rum/captain-morgan-spiced-rum/p/2730175?s=801&igrules=true",
             "JONAH'S CURSE BLACK SPICED RUM: https://www.totalwine.com/spirits/rum/spiced-rum/jonahs-curse-black-spiced-rum/p/150301175?s=801&igrules=true",
@@ -86,7 +86,7 @@ class DrinkOptions:
             "KIRK & SWEENEY RESERVA DOMINICAN RUM: https://www.totalwine.com/spirits/rum/aged-rum/kirk-sweeney-reserva-dominican-rum/p/130558750?s=801&igrules=true"]
         return random.choice(rum)
 
-    async def _get_scotch(self)
+    async def _get_scotch(self):
         scotch = ["JOHNNIE WALKER RED LABEL: https://www.totalwine.com/spirits/scotch/blended-scotch/johnnie-walker-red-label/p/633175?s=801&igrules=true",
             "GLEN NESS SINGLE MALT SCOTCH WHISKY: https://www.totalwine.com/spirits/scotch/single-malt/glen-ness-single-malt-scotch-whisky/p/2013175?s=801&igrules=true",
             "SHIELDAIG 'THE CLASSIC' BLEND 12YR: https://www.totalwine.com/spirits/scotch/blended-scotch/shieldaig-the-classic-blend-12yr/p/109031175?s=801&igrules=true",
@@ -99,7 +99,7 @@ class DrinkOptions:
             "GLEN FOHDRY FRENCH OAK CASK: https://www.totalwine.com/spirits/scotch/single-malt/glen-fohdry-french-oak-cask/p/189872750?s=801&igrules=true"]
         return random.choice(scotch)
 
-    async def _get_tequila(self)
+    async def _get_tequila(self):
         tequila = ["LOS CABOS SILVER TEQUILA: https://www.totalwine.com/spirits/tequila/blancosilver/los-cabos-silver-tequila/p/233715175?s=801&igrules=true",
             "7 LEGUAS BLANCO TEQUILA: https://www.totalwine.com/spirits/tequila/blancosilver/7-leguas-blanco-tequila/p/101628750?s=801&igrules=true",
             "PARTIDA TEQUILA BLANCO: https://www.totalwine.com/spirits/tequila/blancosilver/partida-tequila-blanco/p/3780750?s=801&igrules=true",
@@ -112,7 +112,7 @@ class DrinkOptions:
             "GRAND MAYAN SILVER TEQUILA: https://www.totalwine.com/spirits/tequila/blancosilver/grand-mayan-silver-tequila/p/130630750?s=801&igrules=true"]
         return random.choice(tequila)
 
-    async def _get_vodka(self)
+    async def _get_vodka(self):
         vodka = ["44 NORTH HUCKLEBERRY VODKA: https://www.totalwine.com/spirits/vodka/flavored-vodka/huckleberry/44-north-huckleberry-vodka/p/15776750?s=801&igrules=true",
             "DIXIE VODKA: https://www.totalwine.com/spirits/vodka/vodka/dixie-vodka/p/139681750?s=801&igrules=true",
             "EFFEN VODKA: https://www.totalwine.com/spirits/vodka/vodka/effen-vodka/p/98310750?s=801&igrules=true",
@@ -125,7 +125,7 @@ class DrinkOptions:
             "TWENTY GRAND VODKA PEACH: https://www.totalwine.com/spirits/vodka/flavored-vodka/peach/twenty-grand-vodka-peach/p/159423750?s=801&igrules=true"]
         return random.choice(vodka)
 
-    async def _get_whiskey(self)
+    async def _get_whiskey(self):
         whiskey = ["CROWN ROYAL: https://www.totalwine.com/spirits/canadian-whisky/crown-royal/p/2740175?s=801&igrules=true",
             "JACK DANIELS BLACK: https://www.totalwine.com/spirits/american-whiskey/tennessee-whiskey/jack-daniels-black/p/1782175?s=801&igrules=true",
             "JAMESON IRISH WHISKEY: https://www.totalwine.com/spirits/irish-whiskey/jameson-irish-whiskey/p/2812175?s=801&igrules=true",
