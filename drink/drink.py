@@ -34,29 +34,9 @@ class Drink(BaseCog):
 		drink_list.append("Currently in beta, suggestions to come later")
 		drink_list.append('\n')
 		
-		if(arg is None):
-			x = randrange(1,11)
-		if(arg == "burbon")
-			x = 1
-		if(arg == "brandy" || arg == "cognac")
-			x = 2
-		if(arg == "gin")
-			x = 3
-		if(arg == "liqueur")
-			x = 4
-		if(arg == "r2d" || arg == "ready to drink")
-			x = 5
-		if(arg == "rum")
-			x = 6
-		if(arg == "scotch")
-			x = 7
-		if(arg == "tequila")
-			x = 8
-		if(arg == "vodka")
-			x = 9
-		if(arg == "whiskey
-			x = 10
-
+		
+		x = randrange(1,11)
+		
 		if(x == 1):
 			drink_list.append("Tonight's recommendation is burbon.")
 			drink_list.append('\n')
