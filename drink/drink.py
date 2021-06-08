@@ -38,47 +38,47 @@ class Drink(BaseCog):
 			drink_list.append('\n')
 			drink_list.append(await self.options._get_bourbon())
 
-		else if(x == 2):
+		if(x == 2):
 			drink_list.append("Tonight's recommendation is brandy/cognac.")
 			drink_list.append('\n')
 			drink_list.append(await self.options._get_brandy())
 
-		else if(x == 3):
+		if(x == 3):
 			drink_list.append("Tonight's recommendation is gin.")
 			drink_list.append('\n')
 			drink_list.append(await self.options._get_gin())
 
-		else if(x == 4):
+		if(x == 4):
 			drink_list.append("Tonight's recommendation is liqueur.")
 			drink_list.append('\n')
 			drink_list.append(await self.options._get_liqueur())
 
-		else if(x == 5):
+		if(x == 5):
 			drink_list.append("Tonight's recommendation is a ready to drink concoction.")
 			drink_list.append('\n')
 			drink_list.append(await self.options._get_r2d())
 
-		else if(x == 6):
+		if(x == 6):
 			drink_list.append("Tonight's recommendation is rum.")
 			drink_list.append('\n')
 			drink_list.append(await self.options._get_rum())
 			
-		else if(x == 7):
+		if(x == 7):
 			drink_list.append("Tonight's recommendation is scotch.")
 			drink_list.append('\n')
 			drink_list.append(await self.options._get_scotch())
 
-		else if(x == 8):
+		if(x == 8):
 			drink_list.append("Tonight's recommendation is tequila.")
 			drink_list.append('\n')
 			drink_list.append(await self.options._get_tequila())
 
-		else if(x == 9):
+		if(x == 9):
 			drink_list.append("Tonight's recommendation is vodka.")
 			drink_list.append('\n')
 			drink_list.append(await self.options._get_vodka())
 
-		else if(x == 10):
+		if(x == 10):
 			drink_list.append("Tonight's recommendation is whiskey.")
 			drink_list.append('\n')
 			drink_list.append(await self.options._get_whiskey())
