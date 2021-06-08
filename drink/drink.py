@@ -25,7 +25,7 @@ class Drink(BaseCog):
 		# international integration for overseas users
 
 	@commands.command()
-	async def liqa(self, ctx, arg):
+	async def liqa(self, ctx):
 		"""tells you what to get from the store"""
 		
 		self.options = DrinkOptions()
