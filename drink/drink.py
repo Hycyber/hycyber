@@ -11,6 +11,9 @@ BaseCog = getattr(commands, "Cog", object)
 
 class Drink(BaseCog):
 
+	def __init__(self,bot):
+		self.bot = bot
+		
 	#!liqa
 	#Arguments (String type of liquor, e.g. !liqa whiskey)
 	#Can be left empty for random choice out of all possible options
