@@ -1,13 +1,9 @@
-import discord
 import random
 
-
+#dump of all possible options for right now. Allow users to add to in the future, eventually expand to api
 class DrinkOptions:
 
     def __init__(self):
-        self.bot = redbot
-
-#dump of all possible options for right now. Allow users to add to in the future, eventually expand to api
 
     async def _get_bourbon():
         bourbon =  ["RUSSELL'S RESERVE 6YR RYE: https://www.totalwine.com/spirits/bourbon/small-batch-bourbon/russells-reserve-6yr-rye/p/46841750?s=801&igrules=true",
