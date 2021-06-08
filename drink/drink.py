@@ -4,7 +4,7 @@ import discord
 import random
 
 from .drinkoptions import DrinkOptions
-from redbot.comre import commands
+from redbot.core import commands
 from random import randrange
 
 BaseCog = getattr(commands, "Cog", object)
