@@ -229,33 +229,6 @@ class Birb(BaseCog):
 	async def fish(self, ctx):
 		await ctx.send("https://tenor.com/view/pog-fish-fish-mouth-open-gif-17487624")
 		
-     #!liqa
-	@commands.command()
-	async def liqa(self, ctx):
-		"""tells you what to get from the store"""
-		
-		self.options = DrinkOptions()
-		
-		drink_list =[]
-		drink_list.append("Currently in beta, more choices to come later")
-		drink_list.append('\n')
-				
-		
-		x = randrange(1,3)
-		
-		if(x == 1):
-			drink_list.append("Tonight's choice is burbon: ")
-			drink_list.append('\n')
-			drink_list.append(await self.options._get_bourbon())
-			
-		if(x == 2):
-			drink_list.append("Tonight's choice is brandy/cognac: ")
-			drink_list.append('\n')
-			drink_list.append(await self.options._get_brandy())
-		
-	
-		await ctx.send(''.join(drink_list))
-		
 #End Hycyber's designed commands
 	def cog_unload(self):
 		self.bot.loop.create_task(self.session.close())
