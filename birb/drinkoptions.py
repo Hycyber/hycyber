@@ -3,7 +3,7 @@ import random
 #dump of all possible options for right now. Allow users to add to in the future, eventually expand to api
 class DrinkOptions:
 
-    async def _get_bourbon():
+    async def _get_bourbon(self):
         bourbon =  ["RUSSELL'S RESERVE 6YR RYE: https://www.totalwine.com/spirits/bourbon/small-batch-bourbon/russells-reserve-6yr-rye/p/46841750?s=801&igrules=true",
 			"JIM BEAM SINGLE BARREL 108 PROOF: https://www.totalwine.com/spirits/bourbon/small-batch-bourbon/jim-beam-single-barrel-108-proof/p/224249750?s=801&igrules=true",
 			"VIRGIL KAINE GINGER INFUSED BOURBON: https://www.totalwine.com/spirits/bourbon/virgil-kaine-ginger-infused-bourbon/p/121349750?s=801&igrules=true",
@@ -17,7 +17,7 @@ class DrinkOptions:
 
         return random.choice(bourbon)
 
-    async def _get_brandy():
+    async def _get_brandy(self):
         brandy = ["ABK6 VSOP COGNAC: https://www.totalwine.com/spirits/brandy-cognac/cognac/abk6-vsop-cognac/p/135127750?s=801&igrules=true",
 			"1889 ROYAL BRANDY: https://www.totalwine.com/spirits/brandy-cognac/brandy/1889-royal-brandy/p/171047175?s=801&igrules=true",
 			"E & J BRANDY: https://www.totalwine.com/spirits/brandy-cognac/brandy/e-j-brandy/p/1007175?s=801&igrules=true",
