@@ -228,6 +228,18 @@ class Birb(BaseCog):
 	async def fish(self, ctx):
 		await ctx.send("https://tenor.com/view/pog-fish-fish-mouth-open-gif-17487624")
 		
+    #!poyo
+	@commands.command()
+	async def poyo(self, ctx):
+		poyo = [ "https://i.kym-cdn.com/photos/images/original/001/685/114/d71.gif",
+			"https://www.icegif.com/wp-content/uploads/icegif-59.gif",
+			"https://media1.tenor.com/images/5d7b75d021b607d13486ef63549431e3/tenor.gif?itemid=18598276",
+			"https://media.tenor.com/images/b1606545de66e06520f5699b88489bf6/tenor.gif",
+			"https://i.imgflip.com/56ijju.gif",
+			"https://media.tenor.com/images/4bad4c2a4b36b39e14d1e79db2d510ef/tenor.gif",
+			"https://media.tenor.com/images/d16e73591ecf6409eefd295f49901d3d/tenor.gif"]
+		await ctx.send(random.choice(poyo))
+		
 #End Hycyber's designed commands
 	def cog_unload(self):
 		self.bot.loop.create_task(self.session.close())
