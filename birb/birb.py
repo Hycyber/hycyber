@@ -237,7 +237,8 @@ class Birb(BaseCog):
 			"https://media.tenor.com/images/b1606545de66e06520f5699b88489bf6/tenor.gif",
 			"https://i.imgflip.com/56ijju.gif",
 			"https://media.tenor.com/images/4bad4c2a4b36b39e14d1e79db2d510ef/tenor.gif",
-			"https://media.tenor.com/images/d16e73591ecf6409eefd295f49901d3d/tenor.gif"]
+			"https://media.tenor.com/images/d16e73591ecf6409eefd295f49901d3d/tenor.gif",
+		        "https://media.giphy.com/media/V8GXG0bDve5GLs1K0v/giphy.gif"]
 		await ctx.send(random.choice(poyo))
 		
 #End Hycyber's designed commands
