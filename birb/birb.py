@@ -242,6 +242,14 @@ class Birb(BaseCog):
 		await ctx.send(random.choice(poyo))
 		
 #End Hycyber's designed commands
+#Start Jebby's designed commands
+     #!what
+	@commands.command()
+	async def what(self, ctx)
+		await message.delete()
+		await ctx.send("https://i.imgur.com/V3QNiU1.jpeg")
+			
+#End Jebby's designed commands
 	def cog_unload(self):
 		self.bot.loop.create_task(self.session.close())
 
