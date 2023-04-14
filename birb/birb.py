@@ -243,9 +243,9 @@ class Birb(BaseCog):
 		
 #End Hycyber's designed commands
 #Start Jebby's designed commands
-     #!what
+     #!jebby
 	@commands.command()
-	async def summon(self, ctx):
+	async def jebby(self, ctx):
 		await message.delete()
 		await ctx.send("https://i.imgur.com/V3QNiU1.jpeg")
 			
