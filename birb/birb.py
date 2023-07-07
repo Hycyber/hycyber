@@ -224,7 +224,7 @@ class Birb(commands.Cog):
      #!fish
 	@commands.command()
 	async def fish(self, ctx):
-		await ctx.send("https://tenor.com/view/pog-fish-fish-mouth-open-gif-17487624")
+		await ctx.send("https://tenor.com/view/pog-pogfish-fish-openmouth-gif-20357594")
 		
     #!poyo
 	@commands.command()
