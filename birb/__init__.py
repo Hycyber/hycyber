@@ -2,4 +2,5 @@ from .birb import Birb
 
 
 async def setup(bot):
-    await bot.add_cog(Birb(bot))
+    cog = Birb(bot)
+    await bot.add_cog(cog)
