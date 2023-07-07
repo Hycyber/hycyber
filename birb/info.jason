@@ -1,10 +1,12 @@
 {
     "author" : ["Hycyber (Hycyber#7945)"],
-    "install_msg" : "Birb active.",
+    "install_msg" : "Thank you for installing the birb command package.",
     "name" : "Birb",
-    "short" : "aaaa",
-    "description" : "AAAAAAAAAAAAAAAAAA",
+    "short" : "User Commands",
+    "description" : "Series of basic commands requested by users",
     "disabled" : false,
-    "tags" : ["birb", "a", "A"],
-    "min_python_version": [3, 9, 0]
+    "tags" : ["members", 
+              "users", 
+              "commands"],
+    "min_bot_version": "3.5.0"
 }
