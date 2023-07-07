@@ -6,9 +6,7 @@ import random
 from redbot.core import commands
 from random import randrange
 
-BaseCog = getattr(commands, "Cog", object)
-
-class Birb(BaseCog):
+class Birb(commands.Cog):
 	"""Conglomerate of requested commands. To be seperated into cogs later"""
 	
 # Oosmus's requested commands	
