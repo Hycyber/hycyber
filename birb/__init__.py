@@ -1,5 +1,5 @@
 from .birb import Birb
 
 
-def setup(bot):
-    bot.add_cog(Birb(bot))
+async def setup(bot):
+    await bot.add_cog(Birb(bot))
