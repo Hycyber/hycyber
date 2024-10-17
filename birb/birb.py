@@ -46,8 +46,6 @@ class Birb(commands.Cog):
      #!babe
 	@commands.Cog.listener()
 	async def on_message(message):
-		if message.author == bot.user:
-			return
 		listenWords = ["babe", "babe.", "babe?", "babe!", "bab3"]
 		urls = ["https://i.pinimg.com/control/236x/09/1d/cf/091dcfc270ebfd903764d97dce90a053.jpg",
 			"this is a test"
