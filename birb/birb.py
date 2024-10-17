@@ -46,9 +46,19 @@ class Birb(commands.Cog):
      #!babe
 	@commands.Cog.listener()
 	async def on_message(self, message):
-		listenWords = ["babe", "babe.", "babe?", "babe!", "bab3"]
+		listenWords = ["babe", "babe.", "babe?", "babe!", "bab3", "dawg"]
 		urls = ["https://i.pinimg.com/control/236x/09/1d/cf/091dcfc270ebfd903764d97dce90a053.jpg",
-			"this is a test"
+			"https://i.pinimg.com/control/236x/3b/a7/b7/3ba7b76c1c9bceea00a391be56a1b7b9.jpg",
+			"https://i.pinimg.com/control/474x/d1/3f/1e/d13f1e43a25162f2b64822dd3dff4d9e.jpg",
+			"https://i.pinimg.com/control/236x/9d/db/2a/9ddb2a53f2bc562c4dd18fea7279ab31.jpg",
+			"https://i.pinimg.com/control/474x/80/ce/eb/80ceebe64c2d4c65be0a85127eb8e2c1.jpg",
+			"https://i.pinimg.com/control/474x/88/ca/66/88ca6644cccebcf106672e9560bea131.jpg",
+			"https://i.pinimg.com/control/474x/b6/f8/fb/b6f8fbbf49c9bd0ed4f5827e639a3a33.jpg",
+			"https://i.pinimg.com/474x/e8/2d/75/e82d75656dab1033f17da464cd2728a5.jpg",
+			"https://i.pinimg.com/236x/ce/f4/03/cef403deba3128aa385710989e32b3e9.jpg",
+			"https://i.pinimg.com/control/236x/e8/10/e0/e810e0b17fc9fdb827c3272bdcda4320.jpg",
+			"https://i.pinimg.com/control/236x/ed/e6/54/ede654ba4e507759e994185083b344b7.jpg",
+			"https://i.pinimg.com/control/236x/3e/08/f5/3e08f54028143bc68ad0e8c883a75e42.jpg"
 		       ]
 		msg = message.content.lower()
 		if any(word in msg for word in listenWords):
