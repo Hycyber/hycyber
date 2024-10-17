@@ -44,17 +44,12 @@ class Birb(commands.Cog):
 				screm_list1.append('a')
 		await ctx.send(''.join(screm_list1))
      #!babe
-	def ratelimit_check(self, message):
-		bucket = self._cd.get_bucket(message)
-		return bucket.update_rate_limit()
-		
 	@commands.Cog.listener()
 	async def on_message(message):
 		if message.author == bot.user:
 			return
 		msg = message.content.lower()
-		listenWords = ['babe', 'babe!', 'babe.', 'babe?', 'bab3']
-		if any(word in msg for word in listenWords):
+		if "babe" in message.content:
 			await message.channel.send("https://i.pinimg.com/control/236x/09/1d/cf/091dcfc270ebfd903764d97dce90a053.jpg")
 			await bot.process_commands(message)
 		else:
