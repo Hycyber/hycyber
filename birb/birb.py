@@ -54,7 +54,7 @@ class Birb(commands.Cog):
 		       ]
 		msg = message.content.lower()
 		if any(word in msg for word in listenWords):
-			await message.channel.send(random.choice(url))
+			await message.channel.send(random.choice(urls))
 			await bot.process_commands(message)
 		else:
 			return
