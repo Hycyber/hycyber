@@ -45,11 +45,11 @@ class Birb(commands.Cog):
 		await ctx.send(''.join(screm_list1))
      #!babe
 	@commands.Cog.listener()
-	async def on_message(message):
+	async def on_message(self, message):
 		if message.author == bot.user:
 			return
 		msg = message.content.lower()
-		if "babe" in message.content:
+		if 'babe' in msg:
 			await message.channel.send("https://i.pinimg.com/control/236x/09/1d/cf/091dcfc270ebfd903764d97dce90a053.jpg")
 			await bot.process_commands(message)
 		else:
