@@ -44,13 +44,17 @@ class Birb(commands.Cog):
 				screm_list1.append('a')
 		await ctx.send(''.join(screm_list1))
      #!babe
-	@commands.Cog.listener()
-	async def on_message(self, message):
+	@bot.listen()
+	async def on_message(message):
 		if message.author == bot.user:
 			return
+		listenWords = ["babe", "babe.", "babe?", "babe!", "bab3"]
+		urls = ["https://i.pinimg.com/control/236x/09/1d/cf/091dcfc270ebfd903764d97dce90a053.jpg",
+			"this is a test"
+		       ]
 		msg = message.content.lower()
-		if 'babe' in msg:
-			await message.channel.send("https://i.pinimg.com/control/236x/09/1d/cf/091dcfc270ebfd903764d97dce90a053.jpg")
+		if any(word in msg for word in listenWords):
+			await message.channel.send(random.choice(url))
 			await bot.process_commands(message)
 		else:
 			return
