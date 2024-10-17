@@ -44,7 +44,7 @@ class Birb(commands.Cog):
 				screm_list1.append('a')
 		await ctx.send(''.join(screm_list1))
      #!babe
-	@bot.listen()
+	@commands.Cog.listener()
 	async def on_message(message):
 		if message.author == bot.user:
 			return
